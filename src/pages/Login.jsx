@@ -13,7 +13,7 @@ import React, { useState } from 'react';
         await new Promise((resolve) => setTimeout(resolve, 500));
 
         // Dummy credentials check
-        if (email === 'test@example.com' && password === 'password') {
+        if (email === 'test@example.com' && password === '123456') {
           onLogin();
           navigate('/overview');
         } else {
